@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+#main1 {
+  background: url("./back1.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
+
+
+
+#main2 {
+  background: url("https://images.wallpapersden.com/image/download/scary-skulls_a2tnaGmUmZqaraWkpJRmaGtrrWxrbQ.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+
+#main3 {
+  background: url("https://wallpapercave.com/wp/poe27nQ.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+
+.card {
+  /* From https://css.glass */
+  background: rgba(34, 33, 33, 0.16);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(11.1px);
+  border: 1px solid rgba(34, 33, 33, 0.8);
+}
+
+.lamp {
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: Trixie;
+}
+
+#nav a:hover {
+  scale: 1.2;
+  transition: all 0.5s ease;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.max {
+  animation: float 4s ease-in-out infinite;
+}
+
+.max2{
+  animation: float 2s ease-in-out infinite;
+}
+
+.max3{
+  animation: float 5s ease-in-out infinite;
+}
+.max4{
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@font-face {
+  font-family: Trixie;
+  src: url(trixie.ttf);
+}
+
+#pimp1 p {
+  font-family: Trixie;
+}
+
+.solo {
+  font-family: Trixie;
+  text-transform: capitalize;
+}
